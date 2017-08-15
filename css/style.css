@@ -1,0 +1,123 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+@font-face {
+    font-family: 'playfair_displaybold';
+    src: url('../fonts/playfairdisplay-bold_0-webfont.woff2') format('woff2'),
+         url('../fonts/playfairdisplay-bold_0-webfont.woff') format('woff'),
+         url('../fonts/playfairdisplay-bold_0-webfont.ttf') format('truetype'),
+         url('../fonts/playfairdisplay-bold_0-webfont.svg#playfair_displaybold') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+ul {
+    list-style-type: none;
+}
+a{
+    text-decoration: none;
+}
+.wraper{
+    width:1170px;
+    margin:0 auto;
+}
+.clearfix{
+    clear:both;
+}
+.left{
+    float: left;
+}
+.right{
+    float: right;
+}
+/*header*/
+#header{
+    padding-top: 33px;
+    padding-bottom: 36px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 2;
+    background-color: #fff;
+    width: 100%;
+}
+#menu{
+    padding-top: 8px;
+}
+#menu li{
+    display: inline-block;
+    margin-right: 32px;
+    
+}
+#menu li a{
+    font-family: 'playfair_displaybold';
+    font-size: 18px;
+    color:#000000;
+}
+#menu li:last-child{
+    margin-right: 0;
+}
+
+#banner {
+    background-color: #000;
+    text-align:center;
+    padding:259px 0;
+    position: relative;
+    z-index: 1;
+    margin-top: 105px;
+}
+
+#banner p {
+    text-transform: uppercase;
+    font-family: 'Work Sans', sans-serif;
+    font-size: 14px;
+    color: #fff;
+    margin-bottom: 28px;
+}
+
+#banner h1 {
+
+    font-family:'playfair_displaybold';
+    font-size: 48px;
+    color:#ffffff;
+    margin: 0;
+
+}
+
+#banner span{
+    font-style: italic;
+}
+
+.scroll-down {
+    position: absolute;
+    bottom: 64px;
+    left: 50%;
+    margin-left: -25px;
+}
+
+
+#about
+{
+    text-align: center;
+    padding-top: 104px;
+    padding-bottom: 100px;
+}
+#about h2
+{
+    margin-bottom: 26px;
+    font-size: 38px;
+    font-family: 'playfair_displaybold';
+    color: 
+    #171717;
+
+}
+
+#about p
+{
+    margin-bottom: 37px;
+    font-size: 15px;
+    color: #5f5f5f;
+    line-height: 24px;
+    font-family:'Work Sans', sans-serif;
+}
